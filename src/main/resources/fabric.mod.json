@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "evergarden",
+	"version": "${version}",
+	"name": "Evergarden of Dreams",
+	"description": "A Mod that aims to add everything i so desire :D",
+	"authors": [
+		"Khael <3"
+	],
+	"contact": {
+		"homepage": "none",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/evergarden/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.khael.evergarden.EvergardenOfDreams"
+		],
+		"fabric-datagen": [
+			"net.khael.evergarden.EvergardenOfDreamsDataGenerator"
+		],
+		"client": [
+			"net.khael.evergarden.EvergardenOfDreamsClient"
+		]
+	},
+	"mixins": [
+		"evergarden.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
