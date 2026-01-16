@@ -1,5 +1,5 @@
 {
-  "parent": "minercaft:item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "evergarden:item/astro_cookie"
   }
