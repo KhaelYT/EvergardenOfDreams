@@ -20,7 +20,7 @@ public class ModItems {
     public static void registerModItems() {
         EvergardenOfDreams.LOGGER.info("Registering Mod Items for" + EvergardenOfDreams.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {
+        ItemGroupEvents.modifyEntriesEvent(ModItemGroups.EVERGARDEN_COOKING_GROUP).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ASTRO_COOKIE);
         });
     }
