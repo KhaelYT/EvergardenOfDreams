@@ -1,3 +1,27 @@
 {
-
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:cookie"
+    },
+    "*": {
+      "item": "evergarden:blue_sugar_coating"
+    },
+    "$": {
+      "item": "evergarden:white_sugar_coating"
+    },
+    "&": {
+      "item": "evergarden:black_sugar_coating"
+    }
+  },
+  "pattern": [
+    "",
+    "",
+    ""
+  ],
+  "result": {
+    "count": 6,
+    "id": "evergarden:astro_cookie"
+  }
 }
