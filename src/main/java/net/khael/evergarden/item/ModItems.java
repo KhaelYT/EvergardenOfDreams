@@ -10,7 +10,6 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-
     public static final Item ASTRO_COOKIE = registerItem("astro_cookie", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
@@ -20,8 +19,5 @@ public class ModItems {
     public static void registerModItems() {
         EvergardenOfDreams.LOGGER.info("Registering Mod Items for" + EvergardenOfDreams.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ModItemGroups.EVERGARDEN_COOKING_GROUP).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ASTRO_COOKIE);
-        });
     }
 }
