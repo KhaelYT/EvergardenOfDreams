@@ -20,8 +20,25 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.ASTRO_COOKIE))
                     .displayName(Text.translatable("itemgroup.evergadren.evergarden_cooking"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RED_SUGAR_COATING);
+                        entries.add(ModItems.ORANGE_SUGAR_COATING);
+                        entries.add(ModItems.YELLOW_SUGAR_COATING);
+                        entries.add(ModItems.LIME_GREEN_SUGAR_COATING);
+                        entries.add(ModItems.GREEN_SUGAR_COATING);
+                        entries.add(ModItems.CYAN_SUGAR_COATING);
+                        entries.add(ModItems.LIGHT_BLUE_SUGAR_COATING);
+                        entries.add(ModItems.BLUE_SUGAR_COATING);
+                        entries.add(ModItems.PINK_SUGAR_COATING);
+                        entries.add(ModItems.MAGENTA_SUGAR_COATING);
+                        entries.add(ModItems.PURPLE_SUGAR_COATING);
+                        entries.add(ModItems.BROWN_SUGAR_COATING);
+                        entries.add(ModItems.WHITE_SUGAR_COATING);
+                        entries.add(ModItems.GREY_SUGAR_COATING);
+                        entries.add(ModItems.DARK_GREY_SUGAR_COATING);
+                        entries.add(ModItems.BLACK_SUGAR_COATING);
                         entries.add(ModItems.ASTRO_COOKIE);
                     })
                     .build());
+
 
 }

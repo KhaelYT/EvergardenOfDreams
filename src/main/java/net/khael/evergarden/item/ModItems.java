@@ -1,7 +1,9 @@
 package net.khael.evergarden.item;
 
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.khael.evergarden.EvergardenOfDreams;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -34,5 +36,28 @@ public class ModItems {
     public static void registerModItems() {
         EvergardenOfDreams.LOGGER.info("Registering Mod Items for" + EvergardenOfDreams.MOD_ID);
 
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ASTRO_COOKIE);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(RED_SUGAR_COATING);
+            fabricItemGroupEntries.add(ORANGE_SUGAR_COATING);
+            fabricItemGroupEntries.add(YELLOW_SUGAR_COATING);
+            fabricItemGroupEntries.add(LIME_GREEN_SUGAR_COATING);
+            fabricItemGroupEntries.add(GREEN_SUGAR_COATING);
+            fabricItemGroupEntries.add(CYAN_SUGAR_COATING);
+            fabricItemGroupEntries.add(LIGHT_BLUE_SUGAR_COATING);
+            fabricItemGroupEntries.add(BLUE_SUGAR_COATING);
+            fabricItemGroupEntries.add(PINK_SUGAR_COATING);
+            fabricItemGroupEntries.add(MAGENTA_SUGAR_COATING);
+            fabricItemGroupEntries.add(PURPLE_SUGAR_COATING);
+            fabricItemGroupEntries.add(BROWN_SUGAR_COATING);
+            fabricItemGroupEntries.add(WHITE_SUGAR_COATING);
+            fabricItemGroupEntries.add(GREY_SUGAR_COATING);
+            fabricItemGroupEntries.add(DARK_GREY_SUGAR_COATING);
+            fabricItemGroupEntries.add(BLACK_SUGAR_COATING);
+
+        });
     }
 }
