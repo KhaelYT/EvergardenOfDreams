@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "evergarden:item/astro_cookie"
+    "layer0": "evergarden:item/cookies/astro_cookie"
   }
 }
