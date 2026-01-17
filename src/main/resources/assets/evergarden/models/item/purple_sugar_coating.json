@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "evergarden:item/purple_sugar_coating"
+    "layer0": "evergarden:item/sugar_coatings/purple_sugar_coating"
   }
 }
