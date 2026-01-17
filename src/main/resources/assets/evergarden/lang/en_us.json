@@ -1,5 +1,22 @@
 {
   "item.evergarden.astro_cookie": "Astro Cookie",
 
+  "item.evergarden.red_sugar_coating": "Red Sugar Coating",
+  "item.evergarden.orange_sugar_coating": "Orange Sugar Coating",
+  "item.evergarden.yellow_sugar_coating": "Yellow Sugar Coating",
+  "item.evergarden.lime_green_sugar_coating": "Lime Green Sugar Coating",
+  "item.evergarden.green_sugar_coating": "Green Sugar Coating",
+  "item.evergarden.light_blue_sugar_coating": "Light Blue Sugar Coating",
+  "item.evergarden.cyan_sugar_coating": "Cyan Sugar Coating",
+  "item.evergarden.blue_sugar_coating": "Blue Sugar Coating",
+  "item.evergarden.pink_sugar_coating": "Pink Sugar Coating",
+  "item.evergarden.magenta_sugar_coating": "Magenta Sugar Coating",
+  "item.evergarden.purple_sugar_coating": "Purple Sugar Coating",
+  "item.evergarden.brown_sugar_coating": "Brown Sugar Coating",
+  "item.evergarden.white_sugar_coating": "White Sugar Coating",
+  "item.evergarden.grey_sugar_coating": "Grey Sugar Coating",
+  "item.evergarden.dark_grey_sugar_coating": "Dark Grey Sugar Coating",
+  "item.evergarden.black_sugar_coating": "Black Sugar Coating",
+
   "itemgroup.evergadren.evergarden_cooking": "Evergarden Cooking"
 }

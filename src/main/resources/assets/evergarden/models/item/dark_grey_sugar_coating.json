@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "evergarden:item/dark_grey_sugar_coating"
+  }
+}
