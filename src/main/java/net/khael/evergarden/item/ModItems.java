@@ -1,5 +1,6 @@
 package net.khael.evergarden.item;
 
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.khael.evergarden.EvergardenOfDreams;
 import net.minecraft.item.Item;
@@ -29,12 +30,18 @@ public class ModItems {
 
     public static final Item ASTRO_COOKIE = registerItem("astro_cookie", new Item(new Item.Settings()));
 
+    public static final Item LAVENDER_LOG = registerItem("lavender_log", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(EvergardenOfDreams.MOD_ID, name), item);
     }
 
     public static void registerModItems() {
         EvergardenOfDreams.LOGGER.info("Registering Mod Items for" + EvergardenOfDreams.MOD_ID);
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(LAVENDER_LOG);
+        });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ASTRO_COOKIE);
