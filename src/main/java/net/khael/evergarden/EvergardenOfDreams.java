@@ -2,6 +2,7 @@ package net.khael.evergarden;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.khael.evergarden.item.ModItemGroups;
 import net.khael.evergarden.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +13,7 @@ public class EvergardenOfDreams implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 
 	}
